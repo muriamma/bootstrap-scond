@@ -1,0 +1,482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: url(../img/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+}
+.nav-head{
+    background: transparent!important;
+}
+.nav-mutki{
+    background: #fff!important;
+}
+.nav-link1{
+    color: rgb(77, 77, 219)!important;
+}
+.nav-link{
+    color: #fff!important;
+}
+.free{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.logo-img{
+    width: 100%;
+    padding: 20px 0px;
+}
+.navbar-toggler{
+    background: #fff;
+}
+.banner h2{
+    font-size: 50px;
+    padding: 10px 12px;
+    background-color: #363735;
+    opacity: .8;
+    color: #fff;
+    margin-top: 200px;
+}
+.banner p{
+    font-size: 15px;
+    margin-top: 32px;
+    color: #fff;
+}
+.banner span{
+    border-bottom: 2px solid #fff;
+    display: block;
+    width: 10%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.banner-btn{
+    padding: 18px 100px;
+    background: transparent;
+    margin-bottom: 250px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+/* scond start */
+.scond{
+    width: 100%;
+    float: left;
+    background: #fff;
+    background-repeat: none;
+    background-size: cover;
+}
+.img-content{
+    padding: 40px 0;
+}
+.img-content h2{
+    font-size: 40px;
+    margin-top: 30px;
+    color: black;
+    font-family: open sans;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.img-content span{
+    width: 20%;
+    display: block;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.img-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.img-position{
+    position: relative;
+    margin-top: 38px;
+}
+.img-center{
+    position: absolute;
+    top: 50px;
+}
+/* scond section end */
+/* third section start */
+.third{
+    width: 100%;
+    float: left;
+    background: #28282e;
+    padding: 150px 0px;
+}
+.third-content h2{
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: open sans;
+    font-size: 53px;
+    font-weight: bold;
+    display: block;
+}
+.third-content span{
+    width: 20%;
+    display: block;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px;
+}
+.bye p{
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 16px;   
+}
+.third-btn{
+    padding: 8px 12px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* third section end */
+/* forth section start */
+.forth{
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+.forth span{
+    border-bottom: 7px solid silver;
+    display: block;
+}
+.forth-text h2{
+    font-size: 45px;
+    font-family: open sans;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-bottom: 80px;
+}
+.forth-text p{
+    font-size: 15px;
+}
+.forth-dau{
+    margin-top: 100px;
+}
+.forth-last{
+    margin-bottom: 100px;
+}
+/* forth end */
+/* five start */
+.five{
+    width: 100%;
+    float: left;
+    background: #F04838;
+    background-size: cover;
+    background-repeat: none;
+}
+.five span{
+    border-bottom: 7px solid silver;
+    display: block;
+}
+.five-one h2{
+    font-size: 55px;
+    font-family: open sans;
+    font-weight: bold;
+    margin-top: 150px;
+    color: #fff;
+}
+.five-two{
+    margin-top: 60px;
+}
+.five-two p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+}
+.five-pad{
+    margin-bottom: 50px;
+}
+.form-group{
+    color: #fff;
+    margin-top: 30px;
+}
+.form-group input{
+    background: #ff6258;
+    border: 1px solid #f04838;
+}
+.last-btn{
+    font-family: Dancing Script;
+    font-size: 36px;
+    background: transparent;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 92px;
+    border: none;
+}
+/* five end */
+/* footer start */
+.month{
+    background: #F13E2C;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.footer-text h2{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin: 40px 0px;
+}
+
+
+/* media query */
+/* mobile device */
+@media (min-width: 320px) and (max-width: 500px){
+    /* header section */
+    .navbar-brand{
+        width: 70%;
+        float: left;
+        margin-left: -10px;
+    }
+    .banner h2{
+        font-size: 25px;
+        margin-top: 50px;
+        text-align: center;
+    }.banner p{
+        font-size: 15px;
+        margin-top: 32px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .banner span{
+        width: 10%;
+        margin: 30px auto;
+    }
+    .banner-btn{
+        margin: 50px auto;
+        margin-bottom: 100px;
+    }
+    /* scond section */
+    .img-content h2{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .img-content span{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .img-content p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }.img-position{
+        position: relative;
+        margin-top: 38px;
+    }
+    .img-center{
+        position: inherit;
+        top: 31px;
+    }
+    /* third section */
+    .third-content h2{
+        margin-bottom: 50px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .third-content span{
+        width: 20%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .bye p{
+        margin-bottom: 70px;
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;  
+    }
+    .third-btn{
+        margin: 0 auto;
+        display: block;
+    }.bye-one{
+        margin-top: 150px;
+    }
+    /* forth section */
+    .forth-text h2{
+        font-size: 45px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .forth-text p{
+        font-size: 15px;
+    }
+    .forth-dau{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .forth-last{
+        margin-bottom: 90px;
+    }
+    /* fifth section */
+    .five-one h2{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .five-two{
+        margin-top: 60px;
+    }
+    .five-two p{ 
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .five-three{
+        margin-top: 40px;
+    }
+    .five-pad{
+        margin-bottom: 50px;
+    }
+    .form-group{
+        margin-top: 50px;
+    }
+    .last-btn{
+        font-size: 36px;
+        margin: 10px auto;
+        display: block;
+    }
+     /* footer section */
+    .footer-text h2{
+        font-size: 12px;
+    }
+}
+/* small device */
+@media (min-width: 501px) and (max-width: 768px){
+/* header section */
+.navbar-brand{
+    width: 70%;
+    float: left;
+    margin-left: -10px;
+}
+.banner h2{
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}.banner p{
+    font-size: 15px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.banner span{
+    width: 10%;
+    margin: 30px auto;
+}
+.banner-btn{
+    margin: 80px auto;
+    display: block;
+}
+/* scond section */
+.img-content h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img-content span{
+    margin: 0 auto;
+    text-align: center;
+}
+.img-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}.img-position{
+    position: relative;
+    margin-top: 38px;
+}
+.img-center{
+    position: inherit;
+    top: 31px;
+}
+/* third section */
+.third-content h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.third-content span{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.bye p{
+    margin-bottom: 70px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;  
+}
+.third-btn{
+    margin: 0 auto;
+    display: block;
+}.bye-one{
+    margin-top: 150px;
+}
+/* forth section */
+.forth{
+    margin-top: 40px;
+}
+.forth-text h2{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.forth-text p{
+    font-size: 15px;
+}
+.forth-dau{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.forth-last{
+    margin-bottom: 90px;
+}
+/* fifth section */
+.five-one h2{
+    font-size: 45px;
+    margin-top: 40px;
+    text-align: center;
+}
+.five-two{
+    margin-top: 60px;
+}
+.five-two p{ 
+    font-size: 15px;
+    margin-top: 40px;
+}
+.five-three{
+    margin-top: 40px;
+    text-align: center;
+}
+.five-pad{
+    margin-bottom: 50px;
+}
+.form-group{
+    margin-top: 50px;
+}
+.last-btn{
+    font-size: 36px;
+    margin: 10px auto;
+    display: block;
+}
+ /* footer section */
+.footer-text h2{
+    font-size: 12px;
+}
+} 
+/* mediam device */
+@media (min-width: 768.01px) and (max-width: 992px){
+}
+/* desktop device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+}
+/* large device */
+@media (min-width: 1200.01px){
+}
